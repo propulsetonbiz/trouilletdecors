@@ -218,7 +218,7 @@ document.querySelectorAll('.svc-gallery').forEach(g=>{
           <blockquote>« ${esc(r.texte)} »</blockquote>
           <figcaption><b>${esc(r.nom)}</b>${r.projet?`<span>${esc(r.projet)}</span>`:''}${r.date?`<small>${esc(r.date)}</small>`:''}</figcaption></figure>`).join('')}</div>`:''}
       <div class="avis-cta rv">
-        <p>${list.length?'Vous aussi, vous avez fait appel à nous ?':'Vous avez fait appel à Trouillet Décors ?'} Votre avis aide d'autres familles du Pays d'Aix à nous trouver.</p>
+        <p>${list.length?'Vous aussi, vous avez fait appel à nous ?':'Vous avez fait appel à Trouillet Décors ?'} Votre avis aide d'autres familles de la région à nous trouver.</p>
         <div class="avis-btns">
           <a class="btn btn-gold" href="${esc(lienAvis)}" ${C.lienAvis?'target="_blank" rel="noopener"':''}>${C.lienAvis?'Laisser un avis Google':'Nous envoyer votre avis'}</a>
           ${C.lienGoogle?`<a class="btn btn-ghost" href="${esc(C.lienGoogle)}" target="_blank" rel="noopener">Voir tous nos avis</a>`:''}

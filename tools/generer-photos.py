@@ -20,7 +20,7 @@ CATEGORIES = [
 PROJECTS = [
   ("eygalieres",          "Villa à Eygalières",            "Alpilles",               "Enduits à la chaux, escalier sculpté, ambiance minérale."),
   ("correns",             "Maison contemporaine à Correns", "Provence Verte",         "Rénovation de la pièce de vie : avant, pendant et après les travaux."),
-  ("villa-saint-maximin", "Villa à Saint-Maximin",          "Saint-Maximin-la-Sainte-Baume", "Rénovation complète, du gros œuvre de finition à la décoration."),
+  ("villa-saint-maximin", "Villa à Aix-en-Provence",        "Aix-en-Provence", "Rénovation complète, du gros œuvre de finition à la décoration."),
   ("airbnb-provence",     "Location saisonnière",          "Provence",               "Rénovation d'un logement destiné à la location courte durée."),
 ]
 

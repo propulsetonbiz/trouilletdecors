@@ -35,7 +35,7 @@ SERVICES = [
   sources=[('placo', None)]),
  dict(id='patines', fichier='beton-cire-enduit-chaux-aix-en-provence.html', court='Béton ciré & chaux',
   h1='Béton ciré & patines à la chaux', titre='Béton ciré & enduit à la chaux à Aix-en-Provence',
-  meta="Béton ciré, microciment et enduits à la chaux pour murs, sols, salles de bains, douches et escaliers à Aix-en-Provence et dans le Pays d'Aix.",
+  meta="Béton ciré, microciment et enduits à la chaux pour murs, sols, salles de bains, douches et escaliers à Aix-en-Provence et dans toute la région PACA.",
   accroche="Des matières minérales, douces au toucher et sans joint, pour un intérieur intemporel.",
   texte=["Le béton ciré et les enduits à la chaux apportent cette profondeur de matière qui caractérise les intérieurs contemporains et les maisons de caractère. Appliqués à la main, ils créent des surfaces continues, nuancées et uniques.",
          "Nous les réalisons sur les murs, les sols, les douches à l'italienne, les meubles vasques maçonnés et jusqu'aux escaliers, avec une attention particulière à la préparation des supports et à la protection finale."],
@@ -51,7 +51,7 @@ SERVICES = [
   sources=[('zelliges', None)]),
  dict(id='sols', fichier='pose-sols-aix-en-provence.html', court='Sols & escaliers',
   h1='Pose de sols & habillage d’escaliers', titre='Pose de parquet, LVT, carrelage & moquette à Aix-en-Provence',
-  meta="Pose de parquet, lames LVT, carrelage grand format et moquette, habillage d'escaliers à Aix-en-Provence et dans le Pays d'Aix.",
+  meta="Pose de parquet, lames LVT, carrelage grand format et moquette, habillage d'escaliers à Aix-en-Provence et dans toute la région PACA.",
   accroche="Le bon revêtement pour chaque pièce, posé avec précision jusqu'au dernier nez de marche.",
   texte=["Un beau sol commence par un support parfaitement préparé. Nous posons tous les revêtements : parquet, lames vinyle LVT, carrelage grand format, carreaux ciment et moquette, avec des raccords nets et des finitions soignées.",
          "Nous habillons aussi les escaliers, droits, quart tournant ou suspendus, en lames aspect bois ou en moquette, avec nez de marche assortis."],
@@ -114,7 +114,7 @@ def page(svc, idx):
     url = f"{DOMAINE}/{svc['fichier']}"
     ld = [
       {"@context": "https://schema.org", "@type": "Service", "name": svc['titre'], "serviceType": svc['h1'],
-       "description": svc['meta'], "areaServed": {"@type": "City", "name": "Aix-en-Provence"},
+       "description": svc['meta'], "areaServed": [{"@type": "City", "name": "Aix-en-Provence"}, {"@type": "AdministrativeArea", "name": "Provence-Alpes-Côte d'Azur"}],
        "provider": {"@type": "HomeAndConstructionBusiness", "name": "Trouillet Décors", "telephone": "+33625516784",
                     "email": "trouilletdecors@gmail.com", "url": DOMAINE + "/",
                     "address": {"@type": "PostalAddress", "addressLocality": "Aix-en-Provence", "postalCode": "13100", "addressCountry": "FR"}},
@@ -159,7 +159,7 @@ def page(svc, idx):
     <p class="lead rv d2" style="max-width:420px">Cliquez sur un projet pour suivre le chantier en images.</p></div>
     <div class="projects" style="margin-top:0">
       <a href="realisations.html#projets" class="proj big" data-project="correns"><img src="images/correns/full/correns-06.jpg" alt="Maison à Correns après rénovation" loading="lazy"><div class="proj-txt"><small>Provence Verte</small><b>Maison à Correns</b><span>Avant / après</span></div></a>
-      <a href="realisations.html#projets" class="proj" data-project="villa-saint-maximin"><img src="images/villa-saint-maximin/thumb/villa-saint-maximin-03.jpg" alt="Villa à Saint-Maximin" loading="lazy"><div class="proj-txt"><small>Sainte-Baume</small><b>Villa à Saint-Maximin</b><span>20 photos</span></div></a>
+      <a href="realisations.html#projets" class="proj" data-project="villa-saint-maximin"><img src="images/villa-saint-maximin/thumb/villa-saint-maximin-03.jpg" alt="Villa à Aix-en-Provence" loading="lazy"><div class="proj-txt"><small>Pays d'Aix</small><b>Villa à Aix-en-Provence</b><span>20 photos</span></div></a>
       <a href="realisations.html#projets" class="proj" data-project="eygalieres"><img src="images/eygalieres/thumb/eygalieres-10.jpg" alt="Villa à Eygalières" loading="lazy"><div class="proj-txt"><small>Alpilles</small><b>Villa à Eygalières</b><span>11 photos</span></div></a>
     </div>
   </div>
