@@ -23,7 +23,7 @@ reveal(document);
 const y=document.getElementById('y');if(y)y.textContent=new Date().getFullYear();
 
 // Formulaire : envoi direct vers la boîte mail via FormSubmit (https://formsubmit.co)
-const CONTACT_EMAIL='trouilletdecors@gmail.com';
+const CONTACT_EMAIL='contact@trouilletdecors.fr';
 const form=document.getElementById('form');
 if(form)form.addEventListener('submit',async e=>{
   e.preventDefault();
@@ -208,7 +208,7 @@ document.querySelectorAll('.svc-gallery').forEach(g=>{
   const a=document.getElementById('avis');
   if(a){
     const list=C.avis||[];
-    const lienAvis=C.lienAvis||`mailto:trouilletdecors@gmail.com?subject=${encodeURIComponent('Mon avis sur Trouillet Décors')}`;
+    const lienAvis=C.lienAvis||`mailto:contact@trouilletdecors.fr?subject=${encodeURIComponent('Mon avis sur Trouillet Décors')}`;
     const note=C.note?`<div class="avis-note rv d2"><b class="gold">${String(C.note).replace('.',',')}</b><div>${stars(C.note)}<small>${C.nombreAvis?C.nombreAvis+' avis Google':'Avis Google'}</small></div></div>`:'';
     a.hidden=false;
     a.innerHTML=`<div class="wrap">

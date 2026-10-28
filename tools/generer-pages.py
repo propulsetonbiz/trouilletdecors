@@ -116,7 +116,7 @@ def page(svc, idx):
       {"@context": "https://schema.org", "@type": "Service", "name": svc['titre'], "serviceType": svc['h1'],
        "description": svc['meta'], "areaServed": [{"@type": "City", "name": "Aix-en-Provence"}, {"@type": "AdministrativeArea", "name": "Provence-Alpes-Côte d'Azur"}],
        "provider": {"@type": "HomeAndConstructionBusiness", "name": "Trouillet Décors", "telephone": "+33625516784",
-                    "email": "trouilletdecors@gmail.com", "url": DOMAINE + "/",
+                    "email": "contact@trouilletdecors.fr", "url": DOMAINE + "/",
                     "address": {"@type": "PostalAddress", "addressLocality": "Aix-en-Provence", "postalCode": "13100", "addressCountry": "FR"}},
        "url": url},
       {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
