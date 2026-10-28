@@ -1,0 +1,808 @@
+{
+ "_aide": "Une ligne par photo : [sous-rubrique, légende, étape]. Étape = \"avant\", \"chantier\", \"resultat\", \"illustration\" (image générée par IA) ou \"masque\" (photo retirée du site). Relancer ensuite : python3 tools/generer-photos.py puis python3 tools/generer-pages.py",
+ "peinture-01.jpg": [
+  "Poutres & charpentes",
+  "Charpente apparente en cours de mise en peinture, travail sur échafaudage",
+  "masque"
+ ],
+ "peinture-02.jpg": [
+  "Murs & plafonds",
+  "Mise en teinte d'un mur noir profond, réchampi des encadrements au pinceau",
+  "chantier"
+ ],
+ "peinture-03.jpg": [
+  "Poutres & charpentes",
+  "Plafond à la provençale : poutres et voliges rénovées, entrevous éclaircis",
+  "masque"
+ ],
+ "peinture-04.jpg": [
+  "Poutres & charpentes",
+  "Rénovation d'une grande charpente apparente depuis un échafaudage roulant",
+  "masque"
+ ],
+ "placo-01.jpg": [
+  "Meubles & niches en placo",
+  "Bibliothèque intégrée en placo, niches éclairées et façades en bois",
+  "resultat"
+ ],
+ "placo-02.jpg": [
+  "Cloisons, doublages & plafonds",
+  "Ossature métallique et réseaux encastrés, avant fermeture des cloisons",
+  "chantier"
+ ],
+ "placo-03.jpg": [
+  "Cloisons, doublages & plafonds",
+  "Doublage en plaques hydrofuges dans une future salle d'eau",
+  "chantier"
+ ],
+ "placo-04.jpg": [
+  "Cloisons, doublages & plafonds",
+  "Doublages jointés sous les poutres anciennes",
+  "chantier"
+ ],
+ "placo-05.jpg": [
+  "Meubles & niches en placo",
+  "Coffrage d'un placard encastré, avant la pose des portes persiennes",
+  "chantier"
+ ],
+ "placo-06.jpg": [
+  "Meubles & niches en placo",
+  "Placard sur mesure fermé par des portes persiennes en bois",
+  "resultat"
+ ],
+ "placo-07.jpg": [
+  "Cloisons, doublages & plafonds",
+  "Muret arrondi et douche maçonnée en plaques hydrofuges",
+  "chantier"
+ ],
+ "placo-08.jpg": [
+  "Cloisons, doublages & plafonds",
+  "Arche en plein cintre créée en placo, prête à être peinte",
+  "chantier"
+ ],
+ "placo-09.jpg": [
+  "Meubles & niches en placo",
+  "Mur TV avec niche, cheminée encastrée et claustra en bois",
+  "resultat"
+ ],
+ "placo-10.jpg": [
+  "Meubles & niches en placo",
+  "Meuble vasque maçonné à niches ouvertes, crédence en zelliges",
+  "chantier"
+ ],
+ "placo-11.jpg": [
+  "Meubles & niches en placo",
+  "Plan en L maçonné, étagères ouvertes et tablettes murales",
+  "chantier"
+ ],
+ "placo-12.jpg": [
+  "Meubles & niches en placo",
+  "Niches décoratives creusées dans un mur de séparation",
+  "resultat"
+ ],
+ "placo-13.jpg": [
+  "Cloisons, doublages & plafonds",
+  "Ossature d'un faux-plafond suspendu, vue en contre-plongée",
+  "chantier"
+ ],
+ "placo-14.jpg": [
+  "Meubles & niches en placo",
+  "Bibliothèque intégrée éclairée, sur un sol effet marbre",
+  "resultat"
+ ],
+ "placo-15.jpg": [
+  "Meubles & niches en placo",
+  "Ossature métallique d'un mur TV et de son caisson",
+  "chantier"
+ ],
+ "placo-16.jpg": [
+  "Meubles & niches en placo",
+  "Mur TV en plaques de plâtre, niche et réservations avant enduit",
+  "chantier"
+ ],
+ "placo-17.jpg": [
+  "Cloisons, doublages & plafonds",
+  "Soffite et retombées de plafond autour de la porte d'entrée",
+  "chantier"
+ ],
+ "placo-18.jpg": [
+  "Cloisons, doublages & plafonds",
+  "Plafonds suspendus et caissons de l'entrée, bandes en cours",
+  "chantier"
+ ],
+ "patines-01.jpg": [
+  "Patines à la chaux",
+  "Chambre aux murs patinés à la chaux, tons sable et sol en pierre",
+  "resultat"
+ ],
+ "patines-02.jpg": [
+  "Patines à la chaux",
+  "Salle de bains enduite à la chaux, baignoire d'angle sous poutre apparente",
+  "resultat"
+ ],
+ "patines-03.jpg": [
+  "Béton ciré",
+  "Douche ouverte et meuble arrondi en béton ciré, tablettes en bois",
+  "resultat"
+ ],
+ "patines-04.jpg": [
+  "Béton ciré",
+  "Salle d'eau en béton ciré, double vasque et miroir rond rétroéclairé",
+  "resultat"
+ ],
+ "patines-05.jpg": [
+  "Béton ciré",
+  "Meuble vasque aux courbes douces en béton ciré, miroir en arche",
+  "resultat"
+ ],
+ "patines-06.jpg": [
+  "Béton ciré",
+  "Escalier quart tournant habillé de béton ciré, rampe en fer forgé",
+  "resultat"
+ ],
+ "zelliges-01.jpg": [
+  "Zelliges",
+  "Douche à l'italienne en zelliges rosés, robinetterie en laiton brossé",
+  "resultat"
+ ],
+ "zelliges-02.jpg": [
+  "Carreaux ciment",
+  "Double vasque sur plan noir, miroirs laiton et carreaux ciment noir et blanc",
+  "resultat"
+ ],
+ "zelliges-03.jpg": [
+  "Carreaux ciment",
+  "Vasque noire à poser, miroir hexagonal et sol en carreaux ciment géométriques",
+  "resultat"
+ ],
+ "zelliges-04.jpg": [
+  "Zelliges",
+  "Crédence de cuisine en zelliges rosés, étagères en bois et robinet en laiton",
+  "resultat"
+ ],
+ "zelliges-05.jpg": [
+  "Zelliges",
+  "Lave-mains suspendu devant un mur de zelliges, applique en verre",
+  "resultat"
+ ],
+ "zelliges-06.jpg": [
+  "Zelliges",
+  "WC suspendu, pan de zelliges et placard aux portes cannées",
+  "resultat"
+ ],
+ "zelliges-07.jpg": [
+  "Zelliges",
+  "Plan vasque monolithe minéral face à un mur de zelliges ocre",
+  "resultat"
+ ],
+ "zelliges-08.jpg": [
+  "Zelliges",
+  "Baignoire habillée de pierre claire et pan de zelliges sous la fenêtre",
+  "resultat"
+ ],
+ "zelliges-09.jpg": [
+  "Zelliges",
+  "Vasque en pierre, miroir rétroéclairé et touche de zelliges",
+  "resultat"
+ ],
+ "zelliges-10.jpg": [
+  "Panneaux décoratifs",
+  "Panneau décoratif végétal grand format en cours de pose dans la douche",
+  "chantier"
+ ],
+ "zelliges-11.jpg": [
+  "Carreaux ciment",
+  "Crédence en carreaux à motifs étoilés et meuble vasque en bois cannelé",
+  "resultat"
+ ],
+ "zelliges-12.jpg": [
+  "Panneaux décoratifs",
+  "Douche vitrée sur fond de panneau décoratif végétal",
+  "resultat"
+ ],
+ "sols-01.jpg": [
+  "Parquet & lames LVT",
+  "Lames aspect chêne clair dans une pièce de vie avec îlot cannelé",
+  "resultat"
+ ],
+ "sols-02.jpg": [
+  "Parquet & lames LVT",
+  "Grand séjour sous mezzanine, sol continu en lames aspect bois",
+  "resultat"
+ ],
+ "sols-03.jpg": [
+  "Parquet & lames LVT",
+  "Chambre sous poutres apparentes, lames aspect chêne grisé",
+  "resultat"
+ ],
+ "sols-04.jpg": [
+  "Parquet & lames LVT",
+  "Séjour et cuisine ouverte, sol en lames aspect bois naturel",
+  "resultat"
+ ],
+ "sols-05.jpg": [
+  "Escaliers",
+  "Escalier habillé de lames aspect chêne, nez de marche en aluminium",
+  "resultat"
+ ],
+ "sols-06.jpg": [
+  "Escaliers",
+  "Marches rhabillées en aspect chêne rustique",
+  "resultat"
+ ],
+ "sols-07.jpg": [
+  "Escaliers",
+  "Escalier en moquette anthracite, nez de marche dorés",
+  "resultat"
+ ],
+ "sols-08.jpg": [
+  "Moquette",
+  "Entrée en moquette gris perle, poufs en velours",
+  "resultat"
+ ],
+ "sols-09.jpg": [
+  "Carrelage",
+  "WC : faïence en chevrons et sol en carreaux ciment effet cube",
+  "resultat"
+ ],
+ "sols-10.jpg": [
+  "Carrelage",
+  "Carrelage grand format effet pierre dans une cuisine en cours de finition",
+  "chantier"
+ ],
+ "sols-11.jpg": [
+  "Parquet & lames LVT",
+  "Pièce lumineuse en lames aspect chêne, prête à être aménagée",
+  "resultat"
+ ],
+ "sols-12.jpg": [
+  "Escaliers",
+  "Emmarchement et sol en lames bois sous une arche",
+  "resultat"
+ ],
+ "sols-13.jpg": [
+  "Parquet & lames LVT",
+  "Cuisine et coin repas, sol en parquet clair",
+  "resultat"
+ ],
+ "sols-14.jpg": [
+  "Escaliers",
+  "Emmarchement habillé de lames aspect chêne foncé",
+  "resultat"
+ ],
+ "sols-15.jpg": [
+  "Escaliers",
+  "Escalier droit entièrement moquetté, ton grège",
+  "resultat"
+ ],
+ "sols-16.jpg": [
+  "Parquet & lames LVT",
+  "Détail des lames vinyle (LVT) au veinage marqué",
+  "resultat"
+ ],
+ "sols-17.jpg": [
+  "Carrelage",
+  "Pose de carrelage grand format avec système de nivellement",
+  "chantier"
+ ],
+ "sols-18.jpg": [
+  "Parquet & lames LVT",
+  "Pièce de vie avec verrière d'atelier, sol en lames bois",
+  "resultat"
+ ],
+ "sols-19.jpg": [
+  "Parquet & lames LVT",
+  "Couloir en lames aspect chêne, soubassement peint en gris",
+  "resultat"
+ ],
+ "sols-20.jpg": [
+  "Escaliers",
+  "Escalier suspendu aux marches habillées de bois foncé",
+  "resultat"
+ ],
+ "sols-21.jpg": [
+  "Escaliers",
+  "Détail d'une marche habillée, finition bois foncé",
+  "resultat"
+ ],
+ "sols-22.jpg": [
+  "Escaliers",
+  "Marches suspendues habillées, vue en perspective",
+  "resultat"
+ ],
+ "finitions-01.jpg": [
+  "Papiers peints panoramiques",
+  "Panoramique végétal gris perle au-dessus d'un soubassement rainuré",
+  "resultat"
+ ],
+ "finitions-02.jpg": [
+  "Papiers peints panoramiques",
+  "Chambre : panoramique paysage et suspension en rotin",
+  "resultat"
+ ],
+ "finitions-03.jpg": [
+  "Claustras, tasseaux & panneaux acoustiques",
+  "Panoramique montagnes à l'encre et panneau acoustique à tasseaux noirs",
+  "chantier"
+ ],
+ "finitions-04.jpg": [
+  "Feuille de pierre & parements",
+  "Parement en feuille de pierre au bord de la mezzanine",
+  "resultat"
+ ],
+ "finitions-05.jpg": [
+  "Papiers peints à motifs",
+  "Séjour animé par un pan de papier peint à motif feuillage",
+  "resultat"
+ ],
+ "finitions-06.jpg": [
+  "Papiers peints à motifs",
+  "Perspective à travers une arche vers le séjour et son papier peint",
+  "resultat"
+ ],
+ "finitions-07.jpg": [
+  "Peintures décoratives",
+  "Médaillon damier noir et blanc peint au mur",
+  "resultat"
+ ],
+ "finitions-08.jpg": [
+  "Peintures décoratives",
+  "Kitchenette : crédence graphique noir et blanc et mur moutarde",
+  "resultat"
+ ],
+ "finitions-09.jpg": [
+  "Claustras, tasseaux & panneaux acoustiques",
+  "Claustra en tasseaux de chêne et médaillon damier",
+  "resultat"
+ ],
+ "finitions-10.jpg": [
+  "Papiers peints panoramiques",
+  "Panoramique jungle tropicale aux oiseaux de paradis",
+  "resultat"
+ ],
+ "finitions-11.jpg": [
+  "Papiers peints panoramiques",
+  "Chambre : panoramique montagnes et tête de lit à tasseaux noirs",
+  "resultat"
+ ],
+ "finitions-12.jpg": [
+  "Papiers peints à motifs",
+  "WC habillé d'un papier peint floral aux tons terracotta",
+  "resultat"
+ ],
+ "finitions-14.jpg": [
+  "Papiers peints à motifs",
+  "Panneau feuillage encadré de noir au-dessus d'un buffet",
+  "resultat"
+ ],
+ "finitions-15.jpg": [
+  "Papiers peints à motifs",
+  "Détail du panneau feuillage, tons vert et doré",
+  "resultat"
+ ],
+ "finitions-16.jpg": [
+  "Bardage & habillages bois",
+  "Pose d'un bardage en chêne massif au mur",
+  "chantier"
+ ],
+ "finitions-17.jpg": [
+  "Bardage & habillages bois",
+  "Mur d'accent en bardage bois, finitions en cours",
+  "chantier"
+ ],
+ "finitions-18.jpg": [
+  "Papiers peints panoramiques",
+  "Panoramique forêt et mur vert sauge, avant l'arrivée du mobilier",
+  "chantier"
+ ],
+ "finitions-19.jpg": [
+  "Papiers peints panoramiques",
+  "Bureau face à un panoramique pin parasol et montagne",
+  "resultat"
+ ],
+ "finitions-20.jpg": [
+  "Papiers peints à motifs",
+  "Chambre d'enfant en papier peint fleuri et rideaux rose poudré",
+  "resultat"
+ ],
+ "finitions-21.jpg": [
+  "Papiers peints panoramiques",
+  "Panoramique forêt fraîchement posé, protections encore au sol",
+  "chantier"
+ ],
+ "finitions-22.jpg": [
+  "Peintures décoratives",
+  "Arches créées en placo, prêtes à recevoir le décor",
+  "chantier"
+ ],
+ "finitions-23.jpg": [
+  "Papiers peints panoramiques",
+  "Chambre plongée dans un panoramique forêt noir et blanc",
+  "resultat"
+ ],
+ "finitions-24.jpg": [
+  "Papiers peints panoramiques",
+  "Coin repas sous un panoramique tropical",
+  "resultat"
+ ],
+ "finitions-25.jpg": [
+  "Papiers peints panoramiques",
+  "Pose d'un panoramique animalier, éléphant et flamants",
+  "chantier"
+ ],
+ "finitions-26.jpg": [
+  "Papiers peints panoramiques",
+  "Papier peint graphique bleu nuit sur fond effet béton",
+  "resultat"
+ ],
+ "finitions-27.jpg": [
+  "Papiers peints panoramiques",
+  "Couloir habillé d'un panoramique palmiers à l'encre bleue",
+  "resultat"
+ ],
+ "finitions-28.jpg": [
+  "Bardage & habillages bois",
+  "Bardage en planches de chêne autour d'une fenêtre",
+  "resultat"
+ ],
+ "finitions-29.jpg": [
+  "Bardage & habillages bois",
+  "Mur entièrement habillé de planches de chêne brut",
+  "resultat"
+ ],
+ "finitions-30.jpg": [
+  "Papiers peints panoramiques",
+  "Chambre : panoramique feuilles de palmier et tête de lit en bois",
+  "resultat"
+ ],
+ "finitions-31.jpg": [
+  "Claustras, tasseaux & panneaux acoustiques",
+  "Claustra en tasseaux et papier peint à motif fin, sol en tomettes",
+  "resultat"
+ ],
+ "finitions-32.jpg": [
+  "Papiers peints à motifs",
+  "Papier peint géométrique à motif hexagonal",
+  "resultat"
+ ],
+ "finitions-33.jpg": [
+  "Papiers peints panoramiques",
+  "Panoramique de pins parasols noir et blanc, mur vert profond",
+  "resultat"
+ ],
+ "finitions-34.jpg": [
+  "Bardage & habillages bois",
+  "Tête de lit en planches de bois découpées, mur bleu-gris",
+  "resultat"
+ ],
+ "finitions-35.jpg": [
+  "Papiers peints à motifs",
+  "Grand séjour habillé d'un pan de papier peint feuillage",
+  "resultat"
+ ],
+ "finitions-36.jpg": [
+  "Papiers peints panoramiques",
+  "Panoramique floral à l'encre, effet aquarelle",
+  "resultat"
+ ],
+ "finitions-37.jpg": [
+  "Feuille de pierre & parements",
+  "Douche ouverte habillée d'un panneau effet marbre vert",
+  "resultat"
+ ],
+ "finitions-38.jpg": [
+  "Claustras, tasseaux & panneaux acoustiques",
+  "Chambre : tête de lit et claustra en tasseaux de bois clair",
+  "resultat"
+ ],
+ "finitions-39.jpg": [
+  "Claustras, tasseaux & panneaux acoustiques",
+  "Chambre : bardage bois et étagères intégrées en niche",
+  "resultat"
+ ],
+ "finitions-40.jpg": [
+  "Papiers peints panoramiques",
+  "Pins parasols en panoramique, ambiance crépusculaire",
+  "resultat"
+ ],
+ "finitions-41.jpg": [
+  "Papiers peints panoramiques",
+  "Chambre apaisante, panoramique montagnes en dégradé de bleus",
+  "resultat"
+ ],
+ "finitions-42.jpg": [
+  "Papiers peints panoramiques",
+  "Panoramique bouleaux encadré de tasseaux de bois",
+  "resultat"
+ ],
+ "finitions-43.jpg": [
+  "Peintures décoratives",
+  "Peinture bicolore : vert sauge et soubassement en lambris blanc",
+  "resultat"
+ ],
+ "finitions-44.jpg": [
+  "Papiers peints panoramiques",
+  "Panoramique palmiers ouvrant sur un espace de vie",
+  "resultat"
+ ],
+ "finitions-45.jpg": [
+  "Papiers peints panoramiques",
+  "Chambre lumineuse, panoramique végétal aux tons pastel",
+  "resultat"
+ ],
+ "finitions-46.jpg": [
+  "Peintures décoratives",
+  "Fresque graphique terracotta et noire dans la cage d'escalier",
+  "resultat"
+ ],
+ "finitions-47.jpg": [
+  "Claustras, tasseaux & panneaux acoustiques",
+  "Salle à manger : panneaux acoustiques à tasseaux et mur moutarde",
+  "resultat"
+ ],
+ "agencement-01.jpg": [
+  "Rangements sur mesure",
+  "Placards toute hauteur sur mesure au-dessus d'une tête de lit en papier peint végétal",
+  "resultat"
+ ],
+ "preparation-01.jpg": [
+  "Démolition & curage",
+  "Curage d'une cuisine : dépose des meubles, du carrelage et des cloisons",
+  "chantier"
+ ],
+ "eygalieres-01.jpg": [
+  "",
+  "Salon : bibliothèque en bois sombre et murs enduits à la chaux",
+  "resultat"
+ ],
+ "eygalieres-02.jpg": [
+  "",
+  "Séjour en double hauteur, cheminée enduite et suspensions en papier",
+  "resultat"
+ ],
+ "eygalieres-03.jpg": [
+  "",
+  "Hotte de cheminée sculptée à la chaux sous l'oculus",
+  "resultat"
+ ],
+ "eygalieres-04.jpg": [
+  "",
+  "Cuisine ouverte en bois sombre et mur de pierres apparentes",
+  "resultat"
+ ],
+ "eygalieres-05.jpg": [
+  "",
+  "Lave-mains en pierre taillée devant un enduit rouille",
+  "resultat"
+ ],
+ "eygalieres-06.jpg": [
+  "",
+  "Vasque en pierre brute sur fond d'enduit terre cuite",
+  "resultat"
+ ],
+ "eygalieres-07.jpg": [
+  "",
+  "Couloir enduit à la chaux, appliques en laiton et en verre",
+  "resultat"
+ ],
+ "eygalieres-08.jpg": [
+  "",
+  "Lumière rasante sur l'enduit à la chaux du couloir",
+  "resultat"
+ ],
+ "eygalieres-09.jpg": [
+  "",
+  "Salle à manger sous les suspensions, volume cathédrale",
+  "resultat"
+ ],
+ "eygalieres-10.jpg": [
+  "",
+  "Escalier hélicoïdal sculpté, enduit à la chaux",
+  "resultat"
+ ],
+ "eygalieres-11.jpg": [
+  "",
+  "Détail des courbes de l'escalier hélicoïdal",
+  "resultat"
+ ],
+ "correns-01.jpg": [
+  "",
+  "Le volume en double hauteur et l'escalier suspendu, murs blancs d'origine",
+  "avant"
+ ],
+ "correns-02.jpg": [
+  "",
+  "Le séjour vu depuis l'escalier, avant transformation",
+  "avant"
+ ],
+ "correns-03.jpg": [
+  "",
+  "La pièce de vie et ses baies vitrées, mobilier d'origine",
+  "avant"
+ ],
+ "correns-04.jpg": [
+  "",
+  "La cuisine d'origine, tout en blanc",
+  "avant"
+ ],
+ "correns-05.jpg": [
+  "",
+  "Échafaudage roulant pour traiter les volumes en double hauteur",
+  "chantier"
+ ],
+ "correns-06.jpg": [
+  "",
+  "Séjour réchauffé : plafond anthracite et suspensions en bambou",
+  "resultat"
+ ],
+ "correns-07.jpg": [
+  "",
+  "Pièce de vie ouverte sur le paysage, mur d'accent terracotta",
+  "resultat"
+ ],
+ "correns-08.jpg": [
+  "",
+  "Cuisine avec îlot effet béton, vue sur le séjour",
+  "resultat"
+ ],
+ "correns-09.jpg": [
+  "",
+  "Salle à manger face aux oliviers du jardin",
+  "resultat"
+ ],
+ "correns-10.jpg": [
+  "",
+  "Mur habillé de chêne sous l'escalier suspendu",
+  "resultat"
+ ],
+ "correns-11.jpg": [
+  "",
+  "Perspective depuis la cuisine : bois, anthracite et lumière",
+  "resultat"
+ ],
+ "villa-saint-maximin-01.jpg": [
+  "",
+  "Cuisine : îlot habillé de tasseaux de chêne et suspension noire",
+  "resultat"
+ ],
+ "villa-saint-maximin-02.jpg": [
+  "",
+  "Séjour sous la mezzanine, grand canapé et table en bois",
+  "resultat"
+ ],
+ "villa-saint-maximin-03.jpg": [
+  "",
+  "Pièce de vie en double hauteur, sol continu aspect bois",
+  "resultat"
+ ],
+ "villa-saint-maximin-04.jpg": [
+  "",
+  "Pose de l'habillage de l'escalier sur carrelage effet marbre",
+  "chantier"
+ ],
+ "villa-saint-maximin-05.jpg": [
+  "",
+  "Chambre : panoramique montagnes et tête de lit noire à tasseaux",
+  "resultat"
+ ],
+ "villa-saint-maximin-06.jpg": [
+  "",
+  "Chambre : panoramique feuillage et suspension en rotin",
+  "resultat"
+ ],
+ "villa-saint-maximin-07.jpg": [
+  "",
+  "Chambre : tête de lit à tasseaux et grande toile",
+  "resultat"
+ ],
+ "villa-saint-maximin-08.jpg": [
+  "",
+  "Cuisine noire et terracotta, verrière d'atelier",
+  "resultat"
+ ],
+ "villa-saint-maximin-09.jpg": [
+  "",
+  "Carrelage grand format effet marbre posé dans la pièce de vie",
+  "chantier"
+ ],
+ "villa-saint-maximin-10.jpg": [
+  "",
+  "Salle de bains en cours : faïence anthracite et réseaux en attente",
+  "chantier"
+ ],
+ "villa-saint-maximin-11.jpg": [
+  "",
+  "Cloisons en plaques de plâtre autour de la cage d'escalier",
+  "chantier"
+ ],
+ "villa-saint-maximin-12.jpg": [
+  "",
+  "Menuiserie intérieure prête à être posée",
+  "chantier"
+ ],
+ "villa-saint-maximin-13.jpg": [
+  "",
+  "Ossature et pose de la verrière, gaines en attente",
+  "chantier"
+ ],
+ "villa-saint-maximin-14.jpg": [
+  "",
+  "Pièce de vie carrelée, avant aménagement",
+  "chantier"
+ ],
+ "villa-saint-maximin-15.jpg": [
+  "",
+  "Couloir enduit, soubassement en cours de peinture",
+  "chantier"
+ ],
+ "villa-saint-maximin-16.jpg": [
+  "",
+  "Escalier habillé de chêne, encore sous protection",
+  "chantier"
+ ],
+ "villa-saint-maximin-17.jpg": [
+  "",
+  "Verrière d'atelier et carreaux ciment dans l'entrée",
+  "resultat"
+ ],
+ "villa-saint-maximin-18.jpg": [
+  "",
+  "Panoramique végétal posé dans un passage, avant finitions",
+  "chantier"
+ ],
+ "villa-saint-maximin-19.jpg": [
+  "",
+  "Séjour pendant les finitions, cuisine et mezzanine en fond",
+  "chantier"
+ ],
+ "villa-saint-maximin-20.jpg": [
+  "",
+  "Couloir en lames aspect chêne et soubassement gris",
+  "resultat"
+ ],
+ "airbnb-provence-01.jpg": [
+  "",
+  "État initial : anciens papiers peints rayés et menuiseries d'origine",
+  "chantier"
+ ],
+ "airbnb-provence-02.jpg": [
+  "",
+  "Décollage des anciens papiers peints, poutre apparente conservée",
+  "chantier"
+ ],
+ "airbnb-provence-03.jpg": [
+  "",
+  "Murs mis à nu avant la rénovation",
+  "chantier"
+ ],
+ "plomberie-01.jpg": [
+  "Plomberie",
+  "Réseaux d'eau et d'électricité encastrés dans l'ossature, avant fermeture des cloisons",
+  "chantier"
+ ],
+ "plomberie-02.jpg": [
+  "Plomberie",
+  "Salle de bains en cours : alimentations et évacuations en attente",
+  "chantier"
+ ],
+ "plomberie-03.jpg": [
+  "Électricité",
+  "Gaines électriques et boîtiers en attente autour de la verrière",
+  "chantier"
+ ],
+ "peinture-05.jpg": [
+  "Murs & plafonds",
+  "Pièce de vie vide repeinte en beige chaud, porte-fenêtre en arche et sol en pierre",
+  "illustration"
+ ],
+ "peinture-06.jpg": [
+  "Murs & plafonds",
+  "Grand espace ouvert aux murs repeints en blanc cassé, cuisine et escalier en fond",
+  "illustration"
+ ],
+ "peinture-07.jpg": [
+  "Murs & plafonds",
+  "Séjour provençal vide aux murs repeints, arches et poutre apparente",
+  "illustration"
+ ]
+}

@@ -1,0 +1,2 @@
+// Généré par tools/generer-pages.py
+window.PAGES={"peinture": "peinture-aix-en-provence.html", "placo": "placo-aix-en-provence.html", "patines": "beton-cire-enduit-chaux-aix-en-provence.html", "zelliges": "zelliges-carrelage-aix-en-provence.html", "sols": "pose-sols-aix-en-provence.html", "finitions": "papier-peint-decoration-aix-en-provence.html", "agencement": "agencement-sur-mesure-aix-en-provence.html", "plomberie": "plomberie-electricite-aix-en-provence.html", "preparation": "renovation-interieure-aix-en-provence.html"};

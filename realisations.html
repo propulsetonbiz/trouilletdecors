@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<script>document.documentElement.classList.add('js')</script>
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#181818">
+<title>Réalisations — Trouillet Décors</title>
+<meta name="description" content="Découvrez les réalisations de Trouillet Décors à Aix-en-Provence et en Provence : peinture, placo, patines à la chaux, béton ciré, zelliges, sols, finitions décoratives et agencement.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Manrope:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="icon" type="image/png" href="images/logo/favicon-64.png">
+<link rel="apple-touch-icon" href="images/logo/apple-touch-icon.png">
+<link rel="stylesheet" href="site.css?v=202610231030">
+</head>
+<body>
+<div class="progress" aria-hidden="true"></div>
+
+<header id="top">
+  <div class="wrap nav">
+    <a href="index.html" class="logo" aria-label="Trouillet Décors — accueil">
+      <img class="logo-img" src="images/logo/logo-td-160.png" alt="" width="160" height="160">
+      <span class="logo-txt">TROUILLET<small>DÉCORS</small></span>
+    </a>
+    <nav class="menu" id="menu">
+      <a href="entreprise.html">L'entreprise</a>
+      <a href="index.html#projets">Projets</a>
+      <a href="index.html#savoir-faire">Savoir-faire</a>
+      <a href="index.html#methode">Méthode</a>
+      <a href="realisations.html" style="color:var(--gold-light)">Réalisations</a>
+      <a href="index.html#contact" class="btn btn-gold">Devis gratuit</a>
+      <div class="menu-foot"><a href="tel:+33625516784">06 25 51 67 84</a><span>Aix-en-Provence & Pays d'Aix</span></div>
+    </nav>
+    <nav class="quick" aria-label="Accès rapide"><a href="entreprise.html">L'entreprise</a><a href="realisations.html" aria-current="page">Réalisations</a></nav>
+    <button class="burger" id="burger" aria-label="Menu"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<section class="page-hero" style="--img:url('images/eygalieres/full/eygalieres-10.jpg')">
+  <div class="bg"></div>
+  <div class="wrap">
+    <div class="crumb rv"><a href="index.html">Accueil</a> &nbsp;/&nbsp; Réalisations</div>
+    <span class="eyebrow rv d1">Portfolio</span>
+    <h1 class="rv d1">Nos <em class="gold">réalisations.</em></h1>
+    <p class="rv d2">Chaque chantier est photographié par nos soins. Parcourez nos projets phares, ou explorez nos réalisations par savoir-faire.</p>
+  </div>
+</section>
+
+<div class="filters-bar">
+  <div class="wrap"><nav class="filters" id="filters" aria-label="Catégories"></nav></div>
+</div>
+
+<main id="portfolio">
+  <!-- Vue d'ensemble -->
+  <div id="view-all">
+    <section class="cat-block" id="projets">
+      <div class="wrap">
+        <div class="cat-head">
+          <div><span class="eyebrow">Projets phares</span><h2>Nos plus belles <em class="gold">réalisations.</em></h2></div>
+          <p>Des chantiers complets, menés de A à Z. Cliquez sur un projet pour ouvrir le diaporama commenté.</p>
+        </div>
+        <div class="projects" style="margin-top:0">
+        <a href="#projets" class="proj big" data-project="eygalieres"><img src="images/eygalieres/full/eygalieres-09.jpg" alt="Villa à Eygalières" loading="lazy"><div class="proj-txt"><small>Alpilles</small><b>Villa à Eygalières</b><span>11 photos</span></div></a>
+        <a href="#projets" class="proj" data-project="correns"><img src="images/correns/thumb/correns-10.jpg" alt="Maison contemporaine à Correns" loading="lazy"><div class="proj-txt"><small>Provence Verte</small><b>Maison à Correns</b><span>Avant / après</span></div></a>
+        <a href="#projets" class="proj" data-project="villa-saint-maximin"><img src="images/villa-saint-maximin/thumb/villa-saint-maximin-03.jpg" alt="Villa à Saint-Maximin" loading="lazy"><div class="proj-txt"><small>Sainte-Baume</small><b>Villa à Saint-Maximin</b><span>20 photos</span></div></a>
+        <a href="#projets" class="proj big" data-project="airbnb-provence"><img src="images/airbnb-provence/full/airbnb-provence-02.jpg" alt="Rénovation d'une location saisonnière" loading="lazy" style="object-position:center 40%"><div class="proj-txt"><small>Provence</small><b>Location saisonnière — rénovation</b><span>3 photos</span></div></a>
+        <a href="index.html#contact" class="proj big proj-cta"><div class="proj-txt"><small>Votre projet</small><b>Un intérieur à réinventer ?</b><span>Demander un devis gratuit</span></div></a>
+      </div>
+      </div>
+    </section>
+    <div id="avant-apres"></div>
+    <section class="cat-block" id="savoir-faire">
+      <div class="wrap">
+        <div class="cat-head">
+          <div><span class="eyebrow">Explorer par savoir-faire</span><h2>Que souhaitez-vous <em class="gold">découvrir ?</em></h2></div>
+          <p>Choisissez un métier pour voir nos réalisations, classées par type de travaux et légendées photo par photo.</p>
+        </div>
+        <div class="overview" id="overview"></div>
+      </div>
+    </section>
+  </div>
+  <!-- Vue d'une catégorie -->
+  <div id="view-cat" hidden></div>
+</main>
+
+<section class="empty-cta">
+  <div class="wrap">
+    <span class="eyebrow rv">Votre projet</span>
+    <h2 class="rv d1">Et si le prochain chantier<br><em class="gold">était le vôtre ?</em></h2>
+    <a href="index.html#contact" class="btn btn-gold rv d2">Demander un devis gratuit</a>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="foot">
+      <div>
+        <a href="index.html" class="logo"><img class="logo-img" src="images/logo/logo-td-160.png" alt="" width="160" height="160"><span class="logo-txt">TROUILLET<small>DÉCORS</small></span></a>
+        <p class="foot-tag">Création · Rénovation · Décoration</p>
+        <p>Entreprise familiale fondée en 2015 à Aix-en-Provence. Un seul interlocuteur pour tous vos travaux d'intérieur.</p>
+        <p><a href="entreprise.html" class="foot-link">Découvrir l'entreprise &rarr;</a></p>
+      </div>
+      <div><h4>Savoir-faire</h4><ul><li><a href="peinture-aix-en-provence.html">Peinture intérieure</a></li><li><a href="placo-aix-en-provence.html">Placo & meubles en placo</a></li><li><a href="beton-cire-enduit-chaux-aix-en-provence.html">Patines à la chaux & béton ciré</a></li><li><a href="zelliges-carrelage-aix-en-provence.html">Zelliges & carrelage décoratif</a></li></ul></div>
+      <div><h4>&nbsp;</h4><ul><li><a href="pose-sols-aix-en-provence.html">Sols & escaliers</a></li><li><a href="papier-peint-decoration-aix-en-provence.html">Finitions décoratives</a></li><li><a href="agencement-sur-mesure-aix-en-provence.html">Agencement & mobilier</a></li><li><a href="plomberie-electricite-aix-en-provence.html">Plomberie & électricité</a></li><li><a href="renovation-interieure-aix-en-provence.html">Préparation de chantier</a></li></ul></div>
+      <div><h4>Contact</h4><ul><li><a href="tel:+33625516784">06 25 51 67 84</a></li><li><a href="mailto:trouilletdecors@gmail.com">trouilletdecors@gmail.com</a></li><li>Aix-en-Provence (13)</li></ul></div>
+    </div>
+    <div class="legal"><span>© <span id="y"></span> Trouillet Décors — Tous droits réservés</span><span><a href="mentions-legales.html">Mentions légales</a></span></div>
+  </div>
+</footer>
+
+<a href="tel:+33625516784" class="float-call" aria-label="Appeler"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 005 5L15 13l5 2v4a2 2 0 01-2 2A16 16 0 013 6a2 2 0 012-2"/></svg></a>
+
+<script src="photos.js?v=202610231030"></script>
+<script src="confiance.js?v=202610231030"></script>
+<script src="site.js?v=202610231030"></script>
+<script src="pages.js?v=202610231030"></script>
+<script src="realisations.js?v=202610231030"></script>
+</body>
+</html>
